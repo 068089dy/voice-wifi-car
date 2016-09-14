@@ -31,7 +31,7 @@ public class MyThread extends Thread {
             String s;
 
             s=sin.readLine();
-            out.println(s);
+            out.println("phone"+s);
             out.flush();
             //System.out.println("污月月2说:"+in.readLine());
 

@@ -10,21 +10,24 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.ding.myapplication.MainActivity">
 
-    <TextView
-        android:id="@+id/tx1"
-        android:layout_width="match_parent"
-        android:layout_height="100px"
-        android:text="从这里输出" />
+
     <EditText
         android:id="@+id/ipedit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="请输入ip"
         />
     <Button
         android:id="@+id/beginbt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="开始识别"
+        />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/stop"
+        android:text="暂停"
         />
     <TextView
         android:id="@+id/tx2"
@@ -38,4 +41,9 @@
         android:layout_height="50px"
         android:text="音量"
         />
+    <TextView
+        android:id="@+id/tx1"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:text="从这里输出" />
 </LinearLayout>

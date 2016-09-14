@@ -1,0 +1,14 @@
+.\objects\main.o: main.c
+.\objects\main.o: .\CMSIS\stm32f10x.h
+.\objects\main.o: .\CMSIS\core_cm3.h
+.\objects\main.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: .\CMSIS\system_stm32f10x.h
+.\objects\main.o: interface.h
+.\objects\main.o: LCD1602.h
+.\objects\main.o: IRCtrol.h
+.\objects\main.o: motor.h
+.\objects\main.o: uart.h
+.\objects\main.o: ESP8266.h
+.\objects\main.o: serialportAPI.h
+.\objects\main.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\main.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

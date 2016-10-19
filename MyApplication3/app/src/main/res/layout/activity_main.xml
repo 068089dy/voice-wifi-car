@@ -10,7 +10,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.ding.myapplication.MainActivity">
 
-
     <EditText
         android:id="@+id/ipedit"
         android:layout_width="match_parent"
@@ -29,11 +28,12 @@
         android:id="@+id/stop"
         android:text="暂停"
         />
-    <TextView
-        android:id="@+id/tx2"
+    <Button
+        android:id="@+id/back"
         android:layout_width="match_parent"
-        android:layout_height="50px"
-        android:text="发送指令"
+        android:layout_height="wrap_content"
+        android:text="停止并返回主界面"/>
+
         />
     <TextView
         android:id="@+id/mVolume"
@@ -41,6 +41,11 @@
         android:layout_height="50px"
         android:text="音量"
         />
+    <ProgressBar
+        android:id="@+id/mVolume_pro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"/>
     <TextView
         android:id="@+id/tx1"
         android:layout_width="match_parent"
